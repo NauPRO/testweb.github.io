@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Principal</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Referencia al archivo CSS -->
+</head>
+<body>
+  <div class="home-container">
+    <h2>¡Bienvenido a la App!</h2>
+    <p>Has iniciado sesión correctamente. Ahora puedes descargar la app desde el siguiente enlace:</p>
+    
+    <!-- Botón para descargar la app -->
+    <button id="downloadButton" onclick="descargarApp()">Descargar App</button>
+    
+    <!-- Enlace al archivo de descarga -->
+    <a id="downloadLink" href="ruta/a/tu/app.apk" style="display:none" download>
+      <p>Haz clic aquí si no se descarga automáticamente.</p>
+    </a>
+  </div>
+  
+  <script src="home.js"></script> <!-- Referencia al archivo JS -->
+</body>
+</html>

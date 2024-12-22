@@ -1,0 +1,126 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+  }
+  
+  .purchase-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .app-info h2, .updates h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .app-info ul {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .app-info li {
+    margin-bottom: 10px;
+  }
+  
+  .screenshots .images-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .screenshots img {
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+/* Estilos generales */
+.updates {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.update {
+    margin-bottom: 25px; /* Aumentamos el margen inferior */
+    padding-bottom: 25px;
+}
+
+/* Estilo para los títulos de las actualizaciones */
+.update h3 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: #333;
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+/* Estilo para el párrafo de la actualización */
+.update p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Efecto de zoom cuando el mouse pasa sobre el título */
+.update h3:hover {
+    transform: scale(1.05); /* Hace que el título crezca un 5% */
+}
+
+/* Efecto de zoom cuando el mouse pasa sobre el texto del párrafo */
+.update p:hover {
+    transform: scale(1.05); /* Hace que el párrafo crezca un 5% */
+}
+  
+  .purchase-action {
+    margin-top: 30px;
+  }
+
+  
+  .purchase-action button {
+    padding: 15px;
+    background-color: #34b7f1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .purchase-action button:hover {
+    background-color: #2d99cc;
+  }
+  
+  footer {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #999;
+  }

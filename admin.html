@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel Administrativo</title>
+  <link rel="stylesheet" href="adminStyles.css">
+</head>
+<body>
+  <div class="admin-container">
+    <h1>Panel Administrativo</h1>
+
+    <!-- Formulario para agregar/editar usuarios -->
+    <form id="userForm">
+      <h2>Agregar o Editar Usuario</h2>
+      <label for="username">Usuario:</label>
+      <input type="text" id="username" placeholder="Nombre de usuario" required>
+      
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" placeholder="Contraseña" required>
+      
+      <button type="submit" id="saveUser">Guardar Usuario</button>
+    </form>
+
+    <!-- Lista de usuarios -->
+    <section id="userList">
+      <h2>Lista de Usuarios</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Usuario</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Aquí se llenará con JavaScript -->
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
